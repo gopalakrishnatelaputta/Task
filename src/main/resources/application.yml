@@ -1,0 +1,20 @@
+server:
+  port: 7818
+
+spring:
+  datasource:
+    url: jdbc:mysql://10.0.0.4:3306/carservice
+    username: pawan
+    password: pawan
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    web-application-type: reactive
+files:
+  storage: C:/eidikoportal/profiles
+
+allowedFileExtension: jpg,jpeg,png,pdf,xlsx,doc,eml,msg,tiff,tif
+
+
+
